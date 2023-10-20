@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(130, 197, 255);
+    background-color: rgb(181, 215, 245);
     text-align: center;
 }
 img{
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid rgb(52, 132, 252);
     display: block;
+    border-radius: 20px;
 }
 .content-1{
     display: block;
