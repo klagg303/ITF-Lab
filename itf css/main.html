@@ -10,7 +10,7 @@
             document.getElementById("myusername").innerHTML = document.getElementById("username").value + "'s Gallery"
         }
         function setimage(){
-            document.getElementsById("profileimg").style.backgroundImage = "url(" + document.getElementById("image_url").value + ")";
+            document.getElementById("profile").style.backgroundImage = "url(" + document.getElementById("image_url").value + ")";
         }
 
     </script>
@@ -22,7 +22,7 @@
             <div>
                 <div class="flex-item-1">
                     <!--Avatar-->
-                    <div class="avatar" id="profileimg"></div>
+                    <div class="avatar" id="profile"></div>
                     <div class="noti"><p>2</p></div>
                 </div>
                 <div>
@@ -38,17 +38,12 @@
             </div>
             <div class="gallery">
                 <div class="gallery-item" style="grid-column: span 2 / span 2;">
-                    <img src="download.jpg" width="100%" height="auto"></div>
+                    <img src="download.jpg"></div>
                 <div class="gallery-item"></div>
-                    <img src="download.jpg" width="100%" height="auto"></div>
                 <div class="gallery-item"></div>
-                    <img src="download.jpg" width="100%" height="auto"></div>
                 <div class="gallery-item"></div>
-                    <img src="download.jpg" width="100%" height="auto"></div>
                 <div class="gallery-item"></div>
-                    <img src="download.jpg" width="100%" height="auto"></div>
                 <div class="gallery-item"></div>
-                    <img src="download.jpg" width="100%" height="auto"></div>
         </div>
     </div>
 </body>
